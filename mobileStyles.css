@@ -1,0 +1,168 @@
+/*  ______     __ __      ___     _           _    _____   */
+/* |  _ \ \   / / \ \    / (_)   | |         | |  / ____|  */
+/* | |_) \ \_/ /   \ \  / / _ ___| |__   __ _| | | (___    */
+/* |  _ < \   /     \ \/ / | / __| '_ \ / _` | |  \___ \   */
+/* | |_) | | |       \  /  | \__ \ | | | (_| | |  ____) |  */
+/* |____/  |_|        \/   |_|___/_| |_|\__,_|_| |_____/   */
+
+body {
+
+}
+
+nav {
+  display: none;
+}
+
+hr, .mobileOnly {
+  display: block;
+}
+
+.desktopOnly {
+  display: none;
+}
+
+.white {
+  color: #000;
+}
+
+header {
+  max-height: 100vh;
+  max-width: 100%;
+  background-image: none;
+}
+
+#hobbiesTitle {
+  color: #E3F2FD;
+}
+
+#start h1 {
+    font-size: 72px;
+}
+
+#skill {
+    background-color: #E3F2FD;
+    height: auto;
+    padding: 10vh 0;
+}
+
+.skill {
+    width: 80vw;
+    text-align: center;
+    display: inline-block;
+    margin: 5vh 10vw;
+}
+
+.skillIMG {
+    border-radius: 50%;
+    width: 75vw;
+    height: auto;
+    margin: 1vh 0;
+}
+
+.skillName {
+    margin: 2vh 0;
+    font-size: 1.5em;
+}
+
+.skillInfo {
+    margin: 2vh 0;
+    font-size: 1.25em;
+}
+
+.section {
+    margin: 30px auto;
+    max-width: 90%;
+    max-height: 50vh;
+    border-radius: 20px;
+    background-color: #E3F2FD;
+}
+
+.title {
+  font-size: 28pt;
+}
+
+.click {
+
+}
+
+.info {
+  display: block;
+}
+
+.sectionClick {
+    max-height: 80vh;
+    max-width: 100%;
+    border-radius: 0;
+}
+
+.sectionHovers:hover {
+    transform: scale(1);
+    box-shadow: 0 0 0;
+}
+
+.sectionHovers:active {
+    transform: scale(0.9);
+    box-shadow: 0 0 0;
+}
+
+.sectionClick:active {
+    transform: scale(1.05);
+}
+
+.sectionClick:active {
+    transform: scale(0.9);
+    box-shadow: 0 0 0;
+}
+
+#projects {
+  margin: 5vh 0 0 0;
+  padding: 7.5vh 0 0 0;
+  background-color: #E3F2FD;
+}
+
+.project {
+  width: 80vw;
+  text-align: center;
+  display: inline-block;
+  margin: 5vh 0;
+  padding: 5vh 10vw;
+}
+
+#comingSoon {
+    background-color: #E3F2FD;
+}
+
+.projectIMG {
+  border-radius: 50%;
+  width: 75vw;
+  height: auto;
+  margin: 1vh 0;
+}
+
+.projectText {
+  vertical-align: middle;
+  display: inline-block;
+  width: auto;
+  margin: 0;
+  text-align: center;
+}
+
+.projectTitle {
+  margin: 2vh 0;
+  font-size: 1.25em;
+}
+
+.projectInfo {
+  margin: 2vh 0 5vh 0;
+  font-size: 1.1em;
+  line-height: 125%
+}
+
+.projectLink {
+
+}
+
+footer {
+  background-color: #34495e;
+  color: #ecf0f1
+}
